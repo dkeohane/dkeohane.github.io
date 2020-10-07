@@ -595,3 +595,15 @@ pre tt:after {
     font-size: 100%;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@font-face{
+  font-family: 'california-dealership';
+  src: local('california-dealership'), url('./../fonts/DealerplateCalifornia.ttf')
+}
+
+@font-face{
+  font-family: 'OrangeJuice';
+  src: local('Orange Juice'), url('./../fonts/Orange Juice.ttf')
+}
