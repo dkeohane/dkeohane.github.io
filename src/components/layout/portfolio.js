@@ -29,7 +29,6 @@ const Portfolio = (props) => {
       }
     }
 `)
-console.log(data.qlg)
   return (
     <React.Fragment>
       <h1 id="portfolio" style={headingStyle}>Personal Portfolio</h1>
