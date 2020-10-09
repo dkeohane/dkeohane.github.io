@@ -6,14 +6,14 @@ import '../../styles/PortfolioTiles.css'
 const Portfolio = (props) => {
   const data = useStaticQuery(graphql`
     query {
-      qlg: file(relativePath: { eq: "qlg/cover.png" }) {
+      qlg: file(relativePath: { eq: "qlg/icons/icon_qlg_orange_edge.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      lifecycle: file(relativePath: { eq: "lifecycle/cover.png" }) {
+      lifecycle: file(relativePath: { eq: "lifecycle/icons/icon_life_cycle_orange_edge.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid
@@ -69,7 +69,7 @@ const portfolioGrid = {
   gridAutoRows: 'minMax(100px, auto)',
   justifyContent: 'center',
   justifyItems: 'center',
-  margin: '20px'
+  margin: '40px'
 }
 
 export default Portfolio;

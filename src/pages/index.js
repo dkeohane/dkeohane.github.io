@@ -13,7 +13,7 @@ import Contact from '../components/layout/contact';
 const IndexPage = (props) => {
   const data = useStaticQuery(graphql`
     query {
-      chevron: file(relativePath: { eq: "icons/chevron.png" }) {
+      chevron: file(relativePath: { eq: "icons/chevron_site.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid

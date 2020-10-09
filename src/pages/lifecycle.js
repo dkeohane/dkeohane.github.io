@@ -30,7 +30,7 @@ const LifeCycle = () => {
           }
         }
       }
-      chevron: file(relativePath: { eq: "icons/chevron.png" }) {
+      chevron: file(relativePath: { eq: "icons/chevron_site.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid

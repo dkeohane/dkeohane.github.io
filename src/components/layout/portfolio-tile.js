@@ -25,7 +25,6 @@ const container = {
 
 const tileLink = {
   display: 'block',
-  background: '#d76229',
   color: '#3D405B',
   textAlign: 'center',
   textDecoration: 'none',

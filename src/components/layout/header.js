@@ -6,7 +6,7 @@ import Img from "gatsby-image"
 const Header = ({ siteTitle }) => {
   const data = useStaticQuery(graphql`
   query {
-    dan: file(relativePath: { eq: "icons/dan.png" }) {
+    dan: file(relativePath: { eq: "icons/dan_site.png" }) {
       childImageSharp {
         fluid(maxWidth: 200) {
           ...GatsbyImageSharpFluid
