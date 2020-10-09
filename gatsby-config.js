@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/dkeohane",
+  pathPrefix: "/portfolio",
   siteMetadata: {
     title: `Dan Makes Games`,
     description: `Portfolio for Dan Keohane.`,
@@ -25,7 +25,7 @@ module.exports = {
         background_color: `#FEF9C7`,
         theme_color: `#FEF9C7`,
         display: `minimal-ui`,
-        icon: `src/images/icons/dan.png`, // This path is relative to the root of the site.
+        icon: `src/images/icons/dan_site.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
