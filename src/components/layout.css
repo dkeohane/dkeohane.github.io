@@ -607,3 +607,8 @@ pre tt:after {
   font-family: 'OrangeJuice';
   src: local('Orange Juice'), url('./../fonts/Orange Juice.ttf')
 }
+
+@font-face{
+  font-family: 'Bitterbrush';
+  src: local('Bitterbrush'), url('./../fonts/Bitterbrush DEMO.otf')
+}

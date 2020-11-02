@@ -7,6 +7,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Main from "../components/layout/main"
 import Bio from '../components/layout/bio';
+import Experience from '../components/layout/experience';
 import Portfolio from '../components/layout/portfolio';
 import Contact from '../components/layout/contact';
 
@@ -28,6 +29,7 @@ const IndexPage = (props) => {
       <div style={bg}>
       <Main />
       <Bio />
+      <Experience />
       <Portfolio />
       <Contact />
       <Link to="/#top">

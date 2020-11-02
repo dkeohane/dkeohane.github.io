@@ -19,7 +19,7 @@ function PortfolioTile(props) {
 }
 
 const container = {
-  width: "100%",
+  width: "75%",
   margin: "auto"
 }
 
