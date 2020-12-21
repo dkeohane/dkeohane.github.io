@@ -6,6 +6,13 @@ import '../../styles/PortfolioTiles.css'
 const Portfolio = (props) => {
   const data = useStaticQuery(graphql`
     query {
+      codenameRabbit: file(relativePath: { eq: "codename-rabbit/icons/icon_codename_rabbit_no_edge.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 200) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
       sqg: file(relativePath: { eq: "sqg/icons/icon_sqg_no_edge.png" }) {
         childImageSharp {
           fluid(maxWidth: 200) {
@@ -41,6 +48,12 @@ const Portfolio = (props) => {
       <h1 id="portfolio" style={headingStyle}>Personal Portfolio</h1>
       <div className="container">
         <div className="PortfolioTiles" style={portfolioGrid}>
+          <PortfolioTile
+            link="/codename-rabbit"
+            image={data.codenameRabbit}
+            title="Codename-Rabbit"
+            category="Unity Game"
+          />
           <PortfolioTile
             link="/sqg"
             image={data.sqg}
