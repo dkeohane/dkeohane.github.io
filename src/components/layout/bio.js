@@ -5,8 +5,8 @@ function Bio() {
     <React.Fragment>
       <h1 style={headingStyle}>Bio</h1>
       <div style={container}>
-        <p style={contentStyle}>Hi! I'm Dan, an Irish Software Engineer living in France. My goal is to create compelling games and robust services.</p>
-        <p style={contentStyle}>I've worked professionally on a number of AAA titles, and develop my own games as a hobby.</p>
+        <p style={contentStyle}>Hi! I'm Dan, an Irish Software Engineer living in France. I love learning, tinkering and creating.</p>
+        <p style={contentStyle}>I've worked professionally on a number of AAA titles, and develop my own games as a hobby. My goal is to create compelling games and robust services.</p>
       </div>
     </React.Fragment>
   )

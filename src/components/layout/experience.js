@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import ExperienceTile from './experience-tile'
 import { useStaticQuery, graphql } from "gatsby"
+import CV from './../../../static/DKeohaneCV.pdf'
 
 const Experience = (props) => {
   const data = useStaticQuery(graphql`
@@ -33,6 +34,7 @@ const Experience = (props) => {
       <h1 id="experience" style={headingStyle}>Experience</h1>
       <div style={container}>
         <p style={contentStyle}>I've been fortunate to work in some fantastic workplaces in my career.</p>
+        <p style={contentStyle}> <a href={CV} style={links}>Click here for my CV</a> </p>
       </div>
       <div className="container">
         <div className="ExperienceTiles" style={experienceList}>
@@ -79,6 +81,13 @@ const experienceList = {
   justifyContent: 'center',
   justifyItems: 'center',
   margin: '40px'
+}
+
+const links = {
+  color: '#d76229',
+  textAlign: 'center',
+  fontFamily: 'Nunito',
+  textDecoration: 'none',
 }
 
 export default Experience;

@@ -19,10 +19,11 @@ const Main = () => {
   return (
     <React.Fragment>
       <div style={container}>
-        <p style={contentStyle}>Nice to meet you! I'm Dan. I'm an Irish Back-end and Game Developer living in Annecy, France. If you'd like to work together, <Link style={links} to="/#contact">let's talk!</Link></p>
+        <p style={HeaderStyle}>Nice to meet you! I'm Dan. </p>
+        <p style={contentStyle}>I'm an Irish Backend Engineer working in the Games Industry and living in Annecy, France. If you'd like to work together, <Link style={links} to="/#contact">let's talk!</Link></p>
         <div>
           <Img style={controllerStyle} fluid={data.GB.childImageSharp.fluid} />
-          <p style={subTextStyle}>My name's Dan. I make games</p>
+          <p style={subTextStyle}></p>
         </div>
       </div>
     </React.Fragment>
@@ -45,10 +46,18 @@ const links = {
   textDecoration: 'none',
 }
 
-const contentStyle = {
+const HeaderStyle = {
   color: '#3D405B',
   textAlign: 'center',
   padding: '20px',
+  fontFamily: 'Nunito',
+  fontWeight: 'bolder',
+}
+
+const contentStyle = {
+  color: '#3D405B',
+  textAlign: 'center',
+  padding: 'auto',
   fontFamily: 'Nunito'
 }
 

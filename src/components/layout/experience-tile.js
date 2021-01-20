@@ -54,7 +54,7 @@ function ExperienceTile(props) {
 }
 
 const container = {
-  width: "100%",
+  width: "75%",
   margin: "auto"
 }
 
@@ -88,7 +88,7 @@ const tileLink = {
 }
 
 const projectImage = {
-  padding: `0.2rem 0.2rem`,
+  //padding: `0.2rem 0.2rem`,
   width: "100%",
 }
 
