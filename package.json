@@ -37,8 +37,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "test": "echo \"no test specified\" && exit 0",
+    "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/dkeohane.github.io.git"
   },
   "repository": {
     "type": "git",
