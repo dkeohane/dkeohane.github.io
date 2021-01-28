@@ -38,7 +38,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"no test specified\" && exit 0",
-    "deploy": "gatsby build && gh-pages -b master -d public -r https://$GH_TOKEN@github.com/dkeohane.github.io.git"
+    "deploy": "gatsby build && gh-pages -b master -d public -r https://$GH_TOKEN@github.com/dkeohane/dkeohane.github.io.git"
   },
   "repository": {
     "type": "git",
